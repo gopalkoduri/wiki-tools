@@ -10,13 +10,6 @@ from collections import Counter
 import pickle
 import sys
 
-
-home = expanduser("~")
-data_dir = home+"/data/wiki/extracted"
-code_dir = home+"/workspace/relation-extraction"
-
-from os import chdir
-chdir(code_dir+'/src')
 import progressbar
 import wiki_indexer as wi
 reload(wi)

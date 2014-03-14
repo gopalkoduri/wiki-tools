@@ -16,10 +16,6 @@ from gensim import corpora
 #TODO: Switch to absolute imports and figure out a way to take these variables as arguments
 home = expanduser("~")
 data_dir = home+"/data/wiki/extracted"
-code_dir = home+"/workspace/relation-extraction"
-
-from os import chdir
-chdir(code_dir+"/src")
 
 
 def run(all_args, target_func, func_args=(), process_limit=8):
